@@ -7,7 +7,7 @@ var PORT = process.env.PORT || DEFAULT_PORT;
 // App
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Hello World, My Dear Kalin! This is for webhook test!\n');
+  res.send('Hello World, My Dear Kalin! This is for webhook test! Gerrit Test!\n');
 });
 
 app.listen(PORT)
